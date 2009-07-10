@@ -8,6 +8,8 @@ FileSystemWatcher files came from http://paulhorman.com/filesystemwatcher/
 
 # Installation
 
+First you need to enable NOPASSWD for the aptitude binary. Google around for how to do that.
+
         git clone git://github.com/darkhelmet/auto-apt.git
         put auto-apt-daemon.rb and auto-apt.rb somewhere in your path
 
