@@ -4,6 +4,8 @@ I got sick and tired of aptitude installing things, and then realizing I needed 
 
 auto-apt consists of a daemon and command line app. The daemon watches ~/.auto-apt for new files, which consist of a command to aptitude, such as 'install kcachegrind'. The command line app just sends it arguments to new files. Happiness ensues.
 
+FileSystemWatcher files came from http://paulhorman.com/filesystemwatcher/
+
 # Installation
 
         git clone git://github.com/darkhelmet/auto-apt.git
