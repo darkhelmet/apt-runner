@@ -2,7 +2,7 @@
 
 %w(rubygems daemons file_system_watcher syslog_logger).each { |lib| require lib }
 
-DIRECTORY = File.expand_path(File.join('~','.auto-apt'))
+DIRECTORY = File.expand_path(File.join('~','.apt-runner'))
 File.mkdirs(DIRECTORY)
 LOGGER = SyslogLogger.new('auto-apt-daemon')
 Daemons.run_proc('auto-apt') do

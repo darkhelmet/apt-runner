@@ -1,4 +1,4 @@
-# auto-apt
+# apt-runner
 
 I got sick and tired of aptitude installing things, and then realizing I needed something else, killing aptitude, adding it to the command line, etc, etc. I wanted to just be able to kick it off and not worry about.
 
@@ -10,15 +10,15 @@ FileSystemWatcher files came from http://paulhorman.com/filesystemwatcher/
 
 First you need to enable NOPASSWD for the aptitude binary. Google around for how to do that.
 
-        git clone git://github.com/darkhelmet/auto-apt.git
-        put auto-apt-daemon.rb and auto-apt.rb somewhere in your path
+        git clone git://github.com/darkhelmet/apt-runner.git
+        put apt-runner-daemon.rb and apt-runner.rb somewhere in your path
 
 # Usage
 
-        auto-apt-daemon.rb start
-        auto-apt.rb install something
-        auto-apt.rb purge something
-        auto-apt.rb uninstall something
+        apt-runner-daemon.rb start
+        apt-runner.rb install something
+        apt-runner.rb purge something
+        apt-runner.rb uninstall something
 
 # License
 
