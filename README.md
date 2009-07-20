@@ -22,4 +22,4 @@ First you need to enable NOPASSWD for the aptitude binary. Google around for how
 
 # License
 
-See "LICENSE" file
+See LICENSE for details.
